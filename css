@@ -1,0 +1,384 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #e5b3f0; 
+    color: #333; 
+}
+
+
+  .btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #b877c8;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #b877c8;
+  }
+  
+  .btn-secondary {
+    background-color: #b877c8;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #b877c8;
+  }
+  
+
+  .container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .navbar {
+      font-family: 'Nunito', sans-serif;
+      background-color: #b877c8; 
+    }
+    
+    .navbar-brand {
+      color: #fff; /* Цвет текста */
+    }
+    
+    .navbar-brand:hover {
+      color: #fff; 
+    }
+    
+    .navbar-nav .nav-link {
+      color: #fff; 
+    }
+    
+    .navbar-nav .nav-link:hover {
+      color: #f8f9fa; 
+    }
+    
+    .navbar-dark .navbar-toggler-icon {
+      background-color: #fff; 
+    }
+ 
+  .navbar {
+      min-height: 50px; 
+    }
+    
+ 
+    .navbar-brand img {
+      max-height: 40px; 
+    }
+  
+  .navbar {
+      background-color: #b877c8; 
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+      color: #000; 
+  }
+  
+  .navbar-brand:hover,
+  .navbar-nav .nav-link:hover {
+      color: #333; 
+  }
+  
+  .dropdown-menu {
+      background-color: #b877c8; 
+  }
+  
+  .dropdown-menu .dropdown-item {
+      color: #fff;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+      background-color: #b877c8; 
+  }
+ 
+  #courses {
+      background-color: #b877c8; /
+      padding: 40px 0; /* Add some padding */
+  }
+  
+  #courses h2 {
+      color: #333; 
+  }
+  
+  .card {
+      background-color: #fff 
+      border: 1px solid #fda167; 
+      border-radius: 5px; 
+      transition: box-shadow 0.3s ease-in-out; 
+  }
+  
+  .card:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .card-title {
+      color: #333;
+  }
+  
+  .card-text {
+      color: #666;
+  }
+  
+  .btn-primary {
+      background-color: #b877c8; 
+      border: none; 
+  }
+  
+  .btn-primary:hover {
+      background-color: #b877c8; 
+  }
+  
+  #courses {
+      background-color: #f8f8f8; 
+      padding: 40px 0; 
+  }
+  
+  #courses h2 {
+      color: #333; 
+  }
+  
+  .card {
+      background-color: #fff; 
+      border: 1px solid #dee2e6; 
+      border-radius: 5px; 
+      transition: box-shadow 0.3s ease-in-out; 
+  }
+  
+  .card:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .card-title {
+      color: #333; 
+  }
+  
+  .card-text {
+      color: #666; 
+  }
+  
+  .btn-primary {
+      background-color: #b877c8; 
+      border: none; 
+  }
+  
+  .btn-primary:hover {
+      background-color: #b877c8;
+  }
+
+  
+  .navbar-brand img {
+      max-height: 40px;
+  }
+  
+  #start-learning h2 {
+      color: #b877c8;
+  }
+  
+  #start-learning a {
+      font-size: 1.2em;
+      text-decoration: underline;
+  }
+ 
+  .hero-section .carousel-item img {
+      height: 800px; 
+      object-fit: cover;
+  }
+  
+  .hero-section .carousel-caption {
+      bottom: 20px;
+  }
+  
+  .hero-section h1 {
+      font-size: 2.5rem;
+  }
+  
+  .hero-section p {
+      font-size: 1.25rem;
+  }
+  .container {
+      max-width: 1200px;
+    }
+    .accordion-btn::after {
+      content: "+";
+      float: right;
+  }
+  .question-title {
+    color: #333; 
+}
+.admission-form-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.admission-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.admission-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.admission-form .form-group {
+    margin-bottom: 15px;
+}
+
+.admission-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.admission-form input[type="text"],
+.admission-form input[type="email"],
+.admission-form input[type="tel"],
+.admission-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.admission-form button[type="submit"] {
+    background-color: #b877c8;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.admission-form button[type="submit"]:hover {
+    background-color: #b877c8;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info,
+.footer-links,
+.footer-languages {
+    width: 30%;
+}
+
+.footer-info h3,
+.footer-links h3,
+.footer-languages h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-links ul,
+.footer-languages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li,
+.footer-languages li {
+    margin-bottom: 5px;
+}
+
+.footer-links a,
+.footer-languages a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-links a:hover,
+.footer-languages a:hover {
+    color: #666;
+}
+.about-card {
+    position: relative;
+    overflow: hidden;
+}
+.about-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.about-card:hover img {
+    transform: scale(1.1);
+}
+.about-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.about-card:hover .overlay {
+    opacity: 1;
+}
+.submit-animation {
+    animation-name: pulse;
+    animation-duration: 1s;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
