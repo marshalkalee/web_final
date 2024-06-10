@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language School</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="main page html.html">
+            <img src="websparkle.png" alt="Sparkle School Logo">
+        </a>
+        <a class="navbar-brand" href="main page html.html">Sparkle School</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="main page html.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                
+                    <a class="nav-link" href="courses.html" >Courses</a>
+                     
+                
+                </li>
+                <li class="nav-item">
+                
+                    <a class="nav-link" href="admission.html" > Admission</a>
+                       
+                
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                <li class="nav-item">
+                        <button class="nav-link btn btn-light" data-lang="en">English</button>
+                </li>
+                <li class="nav-item">
+                        <button class="nav-link btn btn-light" data-lang="ru">Russian</button>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+                    
+
+
+    <div class="container">
+        <h1 class="text-center">Frequently Asked Questions</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-decoration-none collapsed accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Do you offer beginner-level courses?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="card-body">
+                <p>Yes, we offer courses tailored for beginners with no prior language learning experience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-decoration-none collapsed accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How many languages do you teach?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="card-body">
+                <p>We teach teach languages, including English, Spanish, and Italian.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-decoration-none collapsed accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Are your instructors native speakers?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="card-body">
+                <p>Yes, all our instructors are native speakers with extensive teaching experience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-decoration-none collapsed accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What teaching methods do you use?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="card-body">
+                <p>We employ a communicative approach, emphasizing speaking and listening skills, supplemented with reading and writing exercises.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-decoration-none collapsed accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Do you provide course materials?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="card-body">
+                <p>Yes, we provide comprehensive course materials including textbooks, audio resources, and online exercises.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-decoration-none collapsed accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Are there any placement tests for new students?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="card-body">
+                <p>Yes, we offer placement tests to assess your current proficiency level and place you in the appropriate class.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingSeven">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-decoration-none collapsed accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  Can I join a course at any time of the year?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+              <div class="card-body">
+                <p>Yes, we offer rolling admissions, allowing students to join our courses at any time throughout the year.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingEight">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-decoration-none collapsed accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        Is there a trial period for your courses?
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Yes, we offer a trial period for all our courses to help you assess if it's the right fit for you.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingNine">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-decoration-none collapsed accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        Can I switch courses after enrolling?
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Yes, you can switch courses after enrolling, subject to availability and instructor approval.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTen">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-decoration-none collapsed accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        Are there any discounts for group enrollment?
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Yes, we offer discounts for group enrollment. Contact us for more information on group rates.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Contact Us</h3>
+                <p>Mangilik El 40, Astana</p>
+                <p>Email: info@sparkleschool.com</p>
+                <p>Phone: 8-800-125-56-89</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="main page html.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <script>
+            // JavaScript for changing background color on mouseover
+    
+            var frequentlyAskedQuestions = document.getElementById("frequently-asked-questions");
+        
+  
+            frequentlyAskedQuestions.addEventListener("mouseover", function() {
+                frequentlyAskedQuestions.style.backgroundColor = "lightblue";
+            });
+            frequentlyAskedQuestions.addEventListener("mouseout", function() {
+                frequentlyAskedQuestions.style.backgroundColor = ""; // Revert to default background color
+            });
+        </script>
+
+
+
+
+    </body>
+    </html>
