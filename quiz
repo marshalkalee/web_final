@@ -1,0 +1,158 @@
+<!-- HTML код -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language School Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css"> 
+</head>
+<body>
+    <!-- Навигационное меню -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Логотип -->
+        <a class="navbar-brand" href="main page html.html">
+            <img src="websparkle.png" alt="Sparkle School Logo" style="max-height: 40px;">
+        </a>
+        <!-- Название школы -->
+        <a class="navbar-brand" href="main page html.html">Sparkle School</a> 
+        <!-- Ссылки -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="main page html.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="quiz.html">Take the Quiz <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="container my-5">
+        <h2 class="text-center">Are You Ready to Start Learning?</h2>
+        <form id="quizForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="surname">Surname</label>
+                <input type="text" class="form-control" id="surname" placeholder="Enter your surname">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="question1">Why do you want to learn a new language?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1" id="question1a" value="a">
+                    <label class="form-check-label" for="question1a">a) For travel</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1" id="question1b" value="b">
+                    <label class="form-check-label" for="question1b">b) For work</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1" id="question1c" value="c">
+                    <label class="form-check-label" for="question1c">c) For personal interest</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="question2">Which language are you interested in?</label>
+                <select class="form-control" id="question2">
+                    <option>English</option>
+                    <option>Spanish</option>
+                    <option>Italian</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question3">What is your current proficiency level in this language?</label>
+                <select class="form-control" id="question3">
+                    <option>Beginner</option>
+                    <option>Intermediate</option>
+                    <option>Advanced</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question4">How do you prefer to learn?</label>
+                <select class="form-control" id="question4">
+                    <option>Group Classes</option>
+                    <option>Private Tutoring</option>
+                    <option>Online Courses</option>
+                    <option>Immersive Experiences</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary magic">Submit</button>
+        </form>
+    </section>
+
+  
+            <script>
+
+    function playSound() {
+        var audio = new Audio('sound1.mp3'); // Путь к вашему аудиофайлу
+        audio.play();
+    }
+    function animateSubmission() {
+       
+        document.body.classList.add('submit-animation');
+
+        
+        setTimeout(function() {
+            document.body.classList.remove('submit-animation');
+        }, 2000); // 2000 миллисекунд = 2 секунды
+    }
+
+    var quizForm = document.getElementById('quizForm'); // Получаем форму по ее ID
+
+    // Добавление обработчика события 'submit' к форме
+    quizForm.addEventListener('submit', function(event) {
+        // Предотвращение стандартного поведения формы (отправки)
+        event.preventDefault();
+
+        // Вызов функции воспроизведения звука
+        playSound();
+
+       
+        animateSubmission();
+    });
+</script>
+<audio id="sound">
+    <source src="sound1.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Footer -->
+ 
+<footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <h3>Contact Us</h3>
+            <p>Mangilik El 40, Astana</p>
+            <p>Email: info@sparklschool.com</p>
+            <p>Phone: 8-800-125-56-89</p>
+        </div>
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
